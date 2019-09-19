@@ -52,8 +52,11 @@ body{
 }
 
 .first__screen__content{
+    height: 100%;
     position: relative;
 }
+
+
 
 .slider__title{
     position: absolute;
@@ -346,11 +349,16 @@ fieldset{
 
 
 .about{
+    
     height: 695px;
+    
 }
 .about__content{
+    position: absolute;
     display: flex;
     justify-content: center;
+    background-color: white;
+    z-index: 10;
 }
 
 .about__img {
