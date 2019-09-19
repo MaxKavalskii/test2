@@ -173,17 +173,17 @@
 @media all and (max-width: 500px){
     .slider__inner{
         width: 250px !important;
-        height: 110px !important;
-        padding: 80px 40px 80px 40px !important;
+        height: 140px !important;
+        padding: 100px 80px 100px 80px !important;
     }
     .slider__content h1{
-        font-size: 19px !important;
+        font-size: 24px !important;
         width: 100%;
         position: relative;
         bottom: 20px;
     }
     .slider__content p{
-        font-size: 8px !important;
+        font-size: 11px !important;
         position: relative;
         bottom: 20px;
     }
@@ -200,17 +200,17 @@
 @media all and (max-width: 470px){
     .slider__inner{
         width: 250px !important;
-        height: 110px !important;
-        padding: 60px 30px 60px 30px !important;
+        height: 140px !important;
+        padding: 90px 30px 90px 30px !important;
     }
     .slider__content h1{
-        font-size: 19px !important;
+        font-size: 24px !important;
         width: 100%;
         position: relative;
         bottom: 20px;
     }
     .slider__content p{
-        font-size: 8px !important;
+        font-size: 11px !important;
         position: relative;
         bottom: 20px;
     }
@@ -228,18 +228,18 @@
     .slider__inner{
         width: 180px !important;
         height: 90px !important;
-        padding: 20px 20px 60px 20px !important;
+        padding: 60px 30px 90px 30px !important;
     }
     .slider__content h1{
-        font-size: 15px !important;
+        font-size: 18px !important;
         width: 100%;
         position: relative;
-        bottom: 20px;
+        bottom: 30px;
     }
     .slider__content p{
-        font-size: 8px !important;
+        font-size: 11px !important;
         position: relative;
-        bottom: 20px;
+        bottom: 30px;
     }
 
     .menu__links ul li{
