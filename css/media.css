@@ -150,14 +150,17 @@
 
     .info__form{
         display: flex;
-
+        flex-direction: column;
     }
+
+
     .info__btn{
         margin-top: 0 !important;
     }
 
     .info__social__inner{
-        top: 2px !important;
+        top: 0 !important;
+        left: 0 !important;
     }
 }
 
@@ -389,6 +392,10 @@
      .services__description__inner .slick-prev{
         left: 72.7% !important;
     }
+    .queries__form form{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media all and (max-width: 620px){
@@ -422,7 +429,7 @@
         opacity: .45
     }
 
-    form{
+    .queries__form form{
         display: flex;
         flex-direction: column;
     }
@@ -452,6 +459,7 @@
     .queries__form{   
     padding-left: 0px !important;
     }
+    
 
     
 
@@ -584,12 +592,6 @@
         background-color: white !important;
         right: 3px !important
     }
-    .info__social__inner{
-        display: block !important;
-        
-        left: 72px !important;
-    }
-
     .links__bottom{
         padding-right: 4px !important;
     }
@@ -622,12 +624,6 @@
     }
     .menu__links ul{
         line-height: normal;
-    }
-
-    .info__social__inner{
-        display: block !important;
-        
-        left: 72px !important;
     }
 
     .links__bottom{
