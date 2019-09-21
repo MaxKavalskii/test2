@@ -599,7 +599,7 @@
 
 @media all and (max-width: 348px){
     .queris__text span:nth-child(2):before{
-        right: 3px !important;
+        right: 1px !important;
     }
 }
 
