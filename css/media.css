@@ -556,6 +556,12 @@
     }
 }
 
+@media all and (max-width: 472px){
+    .queris__text span:nth-child(2):before{
+        display: none;
+    }
+}
+
 @media all and (max-width: 470px){
     .slider__inner{
         width: 250px !important;
@@ -584,16 +590,16 @@
         line-height: normal;
     }
     .queris__text span:nth-child(2):before{
-        content: "" !important;
-        display: inline-block !important;
-        position: absolute !important;
-        height: 32px !important;
-        width: 3px !important;
-        background-color: white !important;
-        right: 3px !important
+ display: none;
     }
     .links__bottom{
         padding-right: 4px !important;
+    }
+}
+
+@media all and (max-width: 348px){
+    .queris__text span:nth-child(2):before{
+        right: 3px !important;
     }
 }
 
