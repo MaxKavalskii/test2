@@ -20,7 +20,7 @@ function slide (){
       $('.services__description__inner').slick({
         
       });
-    } else{
+    } if (width>819){
       $('.services__description__inner').slick({
         slidesToShow: 3,
         centerPadding: '5px',
@@ -32,7 +32,7 @@ function slide (){
 
   services();
 
-  console.log($(window).width())
+
 
   function feedback(){
     $('.feedback__racomandation-text').slick({
