@@ -349,24 +349,31 @@ fieldset{
 
 
 .about{
-    
+    position: absolute;
     height: 695px;
+    z-index: 3;
+    width: 100%;
     
 }
 .about__content{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    z-index: 10;
+
+    
+}
+
+.about__content__inner{
+    margin: 0 auto;
+    width: 498px;
+    position: relative;
 }
 
 .about__img {
     box-shadow: -5px 5px 10px -2px  rgb(104, 99, 99);
     height: 427px;
-    position: relative;
-    top: 200px;
+    width: 498px;
     z-index: -2;
+    position: absolute;
+    top: 200px;
+    right: 40%;
 }
 
 .about__description{
@@ -374,9 +381,9 @@ fieldset{
     height: 427px;
     box-shadow: 10px -8px 10px -5px rgb(202, 199, 199);
     background-color: white;
-    position: relative;
-    right: 10%;
-    top: 50px;
+    position: absolute;
+    top: 80px;
+    left: 40%;
 }
 
 .about__text{
