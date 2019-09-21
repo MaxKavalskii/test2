@@ -9,14 +9,25 @@ function slide (){
   slide();
 
   function services(){
-    $('.services__description__inner').slick({
-      slidesToShow: 3,
-      centerPadding: '5px',
-      centerMode: true,
-      autoplay: true,
-      
-      
-    });
+    var width = $(window).width();
+
+    if ( width <= 819 && width>600){
+      $('.services__description__inner').slick({
+        slidesToShow: 2,
+        // autoplay: true,
+      });
+    } if ( width <= 600 && width>0){
+      $('.services__description__inner').slick({
+        
+      });
+    } else{
+      $('.services__description__inner').slick({
+        slidesToShow: 3,
+        centerPadding: '5px',
+        centerMode: true,
+        // autoplay: true,
+      });
+    }
   }
 
   services();
@@ -50,7 +61,7 @@ function counter(){
 
     if (number==1){
       return;
-    } else{
+    }else{
       number--;
       return $(".counter__number").replaceWith("<span class='counter__number'>"+number+"</span>")
     }
@@ -64,6 +75,7 @@ counter();
 function mobileM(){
   $(".menu__links").toggle()
 }
+
 
 
 

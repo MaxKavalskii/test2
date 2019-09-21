@@ -3,11 +3,11 @@ body{
     padding: 0;
     box-sizing: border-box;
     /* background-color: blueviolet; */
+    
 }
 
 .container{
     max-width: 1200px;
-    
     margin: 0 auto;
     
 }
@@ -349,15 +349,21 @@ fieldset{
 
 
 .about{
-    position: absolute;
+    
     height: 695px;
-    z-index: 3;
     width: 100%;
     
 }
 .about__content{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    left: 0;    
+    height: 695px;
 
-    
 }
 
 .about__content__inner{
@@ -534,8 +540,9 @@ fieldset{
 
 
  .services__img{
-     padding: 144px 70px 55px 74px;
-     
+     padding: 144px 4px 55px 0;
+     width: 125px;
+     margin: 0 auto;
  }
 
  .s-description__title{
