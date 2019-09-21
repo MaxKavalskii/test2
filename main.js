@@ -11,12 +11,12 @@ function slide (){
   function services(){
     var width = $(window).width();
 
-    if ( width <= 819 && width>600){
+    if ( width <= 819 && width>710){
       $('.services__description__inner').slick({
         slidesToShow: 2,
         // autoplay: true,
       });
-    } if ( width <= 600 && width>0){
+    } if ( width <= 710 && width>=1){
       $('.services__description__inner').slick({
         
       });
@@ -31,6 +31,8 @@ function slide (){
   }
 
   services();
+
+  console.log($(window).width())
 
   function feedback(){
     $('.feedback__racomandation-text').slick({
